@@ -1,1 +1,1 @@
-web: uvicorn pyfatoora.api:app --reload --host=0.0.0.0 
+web: uvicorn api.api_v1.api:app --reload --host=0.0.0.0 --port=${PORT:-5000}
